@@ -1,0 +1,16 @@
+{
+  "name": "personal_portfolio",
+  "version": "1.0.0",
+  "description": "Web Development Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Matt Goldhammer",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
