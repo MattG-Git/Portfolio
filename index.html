@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Portfolio</title>
 </head>
 <body>
+
     <div class='left-intro'>
         <div class='container-fluid full-height'>
             <div class='row text-center align-items-center full-height'>
@@ -54,7 +57,7 @@
                 <div class="skills mt-5">
                     <h3>Skills:</h3>
                     <div class='row text-center'>
-                        <div class=col-md-6>
+                        <div class='col-md-6'>
                             <ul class='list-inline'>
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -63,7 +66,8 @@
                                 <li>BOOTSTRAP</li>
                             </ul>
                         </div>
-                        <div class=col-md-6>
+                        
+                        <div class='col-md-6'>
                             <ul class='list-inline'>
                                 <li>NPM</li>
                                 <li>CLI</li>
@@ -72,18 +76,23 @@
                                 <li>SQL</li>
                             </ul>
                         </div>
+                        
                     </div>
                 </div>
-                <div class='certs mt-5'>
+                <div data-aos="fade-up" class='certs mt-5'>
                     <h3>Certificates:</h3>
                     <div class='text-center'>
+                        <div class='inlign pb-3'>
+                            <img src='/Images/Course_Complete.png'>
+                            <img src='/Images/Bootstrap_Course_Completion.png'>
+                        </div>
                         <p class='m-n2'>Nucamp HTML, CSS and JavaScript</p>
                         <p>August 2020</p>
                         <p class='m-n2'>Nucamp Full-Stack Development</p>
                         <p>In progress - Expected Graduation January 2021</p>
                     </div>
                 </div>
-                <div class='contact'>
+                <div class='contact mb-5'>
                     <h3>Contact:</h3>
                     <div class='text-center'>
                         <a role="button" class="btn btn-link" href="mailto:Matt.Goldhammer@gmail.com"><i class="fa fa-envelope-o"></i> Matt.Goldhammer@gmail.com</a>
@@ -98,5 +107,9 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
